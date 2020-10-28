@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+}
+
+input,
+textarea,
+select,
+button {
+  font-family: "Muli-Regular";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+  margin: 0;
+  font-family: 'Montserrat',
+    sans-serif;
+}
+
+p,
+h5,
+h6,
+span {
+  font-family: 'Jost',
+    sans-serif;
+}
+
+/* *********Ielts section********** */
+.about {
+  padding: 4% 0;
+  background-color: #f7f7f7;
+  position: relative;
+  z-index: 1;
+}
+
+.head {
+  background: url(../img/bg-vector1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.about h1 {
+  font-size: 2.8rem;
+  letter-spacing: 3px;
+  font-weight: 700;
+  word-wrap: break-word;
+  color: #3b1d82;
+}
+
+.about p {
+  font-size: 1.4rem;
+  word-spacing: 2px;
+  color: #222831;
+}
+
+.lists-about ul {
+  position: relative;
+  text-align: left;
+  border: 1px solid #11A7D9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+}
+
+.lists-about li {
+  display: flex;
+  justify-content: flex-start;
+  font-size: .9rem;
+  padding: .5rem;
+  border-bottom: 1px solid #8b8bbe;
+  transition: transform 0.5s;
+}
+
+.lists-about li:hover {
+  transform: scale(1.08);
+  z-index: 1;
+  background: #f4f6ff;
+  border-radius: 10px;
+  border: 2px solid #11A7D9;
+}
+
+.lists-about li:hover i {
+  color: #fff;
+  background-color: #11A7D9;
+}
+
+.lists-about li:hover .list-topic {
+  color: #4a47a3;
+}
+
+.lists-about i {
+  padding: 1rem;
+  width: 45px;
+  height: 45px;
+  background: #d9ecf2;
+  border-radius: 50%;
+}
+
+.list-topic {
+  margin-left: 5px;
+  display: inline;
+  padding: 12px;
+  color: #444446;
+  font-weight: 600;
+}
+
+/* ***********our services********** */
+.our-services {
+  padding: 3% 0;
+  position: relative;
+}
+
+.our-services h1 {
+  color: #3b1d82;
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+/* 
+.service-head span {
+  width: 20px;
+  height: 1px;
+  background-color: #11A7D9;
+  position: relative;
+  font-size: .5rem;
+} */
+
+
+.our-services img {
+  margin: 5px 0 15px 0;
+}
+
+.services-head {
+  background: url(../img/feature-icon-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 135px;
+  height: 135px;
+  margin: 0 auto;
+  display: block;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding: 3rem;
+  margin-bottom: 12px;
+}
+
+.services-head span {
+  font-size: 3rem;
+  color: #3b1d82;
+}
+
+.services-body h3 {
+  color: #242424;
+  font-size: 1.5rem;
+  margin: .6rem 0;
+}
+
+.services-body p {
+  color: #797979;
+  font-size: 1.1rem;
+}
+
+/* **********what we provide section********** */
+.provides {
+  padding: 3% 0;
+}
+
+.provides h1 {
+  color: #3b1d82;
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.provide-box {
+  text-align: left;
+}
+
+.provide-box h5 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #242424;
+  line-height: 2;
+  padding: .2rem 0;
+}
+
+.provide-box i {
+  color: #3b1d82;
+  font-size: 2rem;
+  margin-right: 10px;
+
+}
