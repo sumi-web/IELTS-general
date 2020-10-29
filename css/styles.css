@@ -72,9 +72,28 @@ span {
   font-weight: 500;
 }
 
-.main-img img {
+.main-img {
+  position: relative;
+}
+
+.main-img .banner-img1 {
   width: 100%;
   height: auto;
+  z-index: 1;
+}
+
+.main-img .banner-img2 {
+  position: absolute;
+  top: 0;
+  left: 45%;
+  z-index: -1;
+}
+
+.main-img .banner-img3 {
+  position: absolute;
+  bottom: 5%;
+  left: 3%;
+  z-index: -1;
 }
 
 /* ***********our services********** */
@@ -116,12 +135,13 @@ span {
 }
 
 .services-head span {
-  font-size: 3rem;
+  font-size: 2.8rem;
   color: #3b1d82;
+  font-weight: 500;
 }
 
 .services-body h3 {
-  color: #242424;
+  color: #221638;
   font-size: 1.5rem;
   margin: .6rem 0;
 }
@@ -202,7 +222,7 @@ span {
 .provide-box h5 {
   font-size: 1.4rem;
   font-weight: 500;
-  color: #242424;
+  color: #221638;
   line-height: 2;
   padding: .2rem 0;
 }
